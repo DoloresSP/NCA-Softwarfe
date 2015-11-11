@@ -1,0 +1,8 @@
+package pilas;
+
+public class EmptyStackException extends Exception {
+	public EmptyStackException (String err){
+		super (err);
+	}
+
+}
