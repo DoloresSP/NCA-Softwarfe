@@ -1,6 +1,6 @@
-package IteraccionModificar;
+package IteracionModificar;
 
-import IteraccionAñadir.*;
+import IteracionAÃ±adir.*;
 
 public class GestionarModificar {
 
