@@ -1,4 +1,4 @@
-package IteraccionAñadir;
+package IteraccionAÃ±adir;
 import java.sql.*;
 
 public class Agente {
@@ -14,6 +14,7 @@ public class Agente {
 		String url= "jdbc:ODBC:Ag";
 		String login= "";
 		String password= "";
+		String p;
 		
 		
 		conn=DriverManager.getConnection(url);
