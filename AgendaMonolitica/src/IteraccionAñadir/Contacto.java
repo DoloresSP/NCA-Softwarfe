@@ -1,4 +1,4 @@
-package IteraccionAñadir;
+package IteraccionAÃ±adir;
 
 public class Contacto {
 
@@ -40,6 +40,7 @@ public class Contacto {
 	public void setDni(String dni) {
 		this.dni = dni;
 	}
+	
 	
 	
 	
