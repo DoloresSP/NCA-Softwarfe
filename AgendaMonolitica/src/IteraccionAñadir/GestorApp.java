@@ -1,11 +1,11 @@
-package IteraccionAñadir;
+package IteraccionAÃ±adir;
 import IteraccionBuscar.*;
 import IteraccionEliminar.*;
 import IteraccionModificar.*;
 
 
 public class GestorApp {
-	private static GestionarAñadir gAñadir=new GestionarAñadir();
+	private static GestionarAÃ±adir gAÃ±adir=new GestionarAÃ±adir();
 	private static GestionarBuscar gBuscar=new GestionarBuscar();
 	private static GestionarModificar gModi=new GestionarModificar();
 	private static GestionarEliminar gEliminar=new GestionarEliminar();
@@ -16,13 +16,14 @@ public class GestorApp {
 		// TODO Auto-generated constructor stub
 	}
 
-	public static void AñadirApp(String nombre, String apellido, long telefono, String dni){
-		gAñadir.G_añadir(nombre, apellido, telefono, dni);
+	public static void AÃ±adirApp(String nombre, String apellido, long telefono, String dni){
+		gAÃ±adir.G_aÃ±adir(nombre, apellido, telefono, dni);
 	}
 	
 	public static void BuscarApp(String dni){
 		gBuscar.G_buscar(dni);
 	}
+	
 	
 	public static void ModificarApp(Contacto c){
 		gModi.G_modificar(c);
